@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:icon="@drawable/ic_analyz_navigation"
+            android:title="Анализы"
+            app:showAsAction="always"
+            android:id="@+id/anaLyz"/>
+
+    <item android:icon="@drawable/ic_result_navigation"
+            android:title="Результаты"
+            app:showAsAction="always"
+            android:id="@+id/reSult"
+        />
+
+    <item android:icon="@drawable/ic_support_navigation"
+            android:title="Поддержка"
+            app:showAsAction="always"
+            android:id="@+id/suPport"
+        />
+
+    <item android:icon="@drawable/ic_user_navigation"
+            android:title="Профиль"
+            app:showAsAction="always"
+            android:id="@+id/uSer"/>
+
+
+</menu>
